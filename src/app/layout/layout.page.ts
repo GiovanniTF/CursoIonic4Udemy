@@ -8,26 +8,12 @@ import { NavController } from '@ionic/angular';
 })
 export class LayoutPage implements OnInit {
 
-  constructor(
-    private navCtrl : NavController
-  ) { }
+  constructor(private navCtrl : NavController) { }
 
   ngOnInit() {
   }
 
-  openLayoutHeaderFooter(){
-    this.navCtrl.navigateForward('layout-header-footer');
-  }
-
-  openTabs(){
-    this.navCtrl.navigateForward('layout-tabs')
-  }
-
-  openMenu(){
-    this.navCtrl.navigateForward('layout-menu')
-  }
-
-  openSplitPane(){
-    this.navCtrl.navigateForward('layout-split-pane')
+  openPage(namePage : string){
+    this.navCtrl.navigateForward(namePage);
   }
 }

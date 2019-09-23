@@ -1,0 +1,10 @@
+ion-grid{
+    --ion-grid-columns:13;
+    //definir o numero de colunas no grid... 13 para corrigir o bug das colunas
+    ion-row{
+        ion-col{
+            background-color: blue;
+            margin: 1px;
+        }
+    }
+}

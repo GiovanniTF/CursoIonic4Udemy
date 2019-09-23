@@ -13,7 +13,8 @@ export class AppComponent {
   public appPages = [
     {title: 'Home', url: '/home', icon: 'home' },
     {title: 'Instalação', url: '/instalacao', icon: 'download' },
-    {title: 'Layout', url: '/layout', icon: 'albums' }
+    {title: 'Layout', url: '/layout', icon: 'albums' },
+    {title: 'Component', url :'/layout-componentes', icon:'code-working'}
   ];
 
   constructor(

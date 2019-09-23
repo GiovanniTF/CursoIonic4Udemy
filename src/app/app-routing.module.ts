@@ -17,7 +17,11 @@ const routes: Routes = [
   { path: 'layout-tabs', loadChildren: './layout-tabs/layout-tabs.module#LayoutTabsPageModule' },
   { path: 'layout-menu', loadChildren: './layout-menu/layout-menu.module#LayoutMenuPageModule' },
   { path: 'layout-split-pane', loadChildren: './layout-split-pane/layout-split-pane.module#LayoutSplitPanePageModule' },
-  { path: 'layout-grid', loadChildren: './layout-grid/layout-grid.module#LayoutGridPageModule' }
+  { path: 'layout-grid', loadChildren: './layout-grid/layout-grid.module#LayoutGridPageModule' },
+  { path: 'layout-css-utilities', loadChildren: './layout-css-utilities/layout-css-utilities.module#LayoutCssUtilitiesPageModule' },
+  { path: 'layout-componentes', loadChildren: './layout-componentes/layout-componentes.module#LayoutComponentesPageModule' },
+  { path: 'action-sheet', loadChildren: './action-sheet/action-sheet.module#ActionSheetPageModule' },
+  { path: 'component-alert', loadChildren: './component-alert/component-alert.module#ComponentAlertPageModule' }
 ];
 
 @NgModule({

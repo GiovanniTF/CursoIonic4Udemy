@@ -21,7 +21,10 @@ const routes: Routes = [
   { path: 'layout-css-utilities', loadChildren: './layout-css-utilities/layout-css-utilities.module#LayoutCssUtilitiesPageModule' },
   { path: 'layout-componentes', loadChildren: './layout-componentes/layout-componentes.module#LayoutComponentesPageModule' },
   { path: 'action-sheet', loadChildren: './action-sheet/action-sheet.module#ActionSheetPageModule' },
-  { path: 'component-alert', loadChildren: './component-alert/component-alert.module#ComponentAlertPageModule' }
+  { path: 'component-alert', loadChildren: './component-alert/component-alert.module#ComponentAlertPageModule' },
+  { path: 'component-badges', loadChildren: './component-badges/component-badges.module#ComponentBadgesPageModule' },
+  { path: 'component-button', loadChildren: './component-button/component-button.module#ComponentButtonPageModule' },
+  { path: 'component-card', loadChildren: './component-card/component-card.module#ComponentCardPageModule' }
 ];
 
 @NgModule({

@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Componente Badge</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+<ion-badge color="primary">25</ion-badge>
+<ion-badge color="secondary">20</ion-badge>
+<ion-badge color="dark">15</ion-badge>
+<ion-badge color="danger">10</ion-badge>
+<ion-badge color="primary">5</ion-badge>
+
+<ion-list>
+  <ion-item>
+    <ion-icon name="man" slot="start"></ion-icon>
+    Seguidores
+    <ion-badge color="primary" slot="end">300K</ion-badge>
+  </ion-item>
+  <ion-item>  
+    <ion-icon name="eye" slot="start"></ion-icon>
+    Visualizações
+    <ion-badge color="secondary" slot="end">200K</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-icon name="mail" slot="start"></ion-icon>
+    Mensagens
+    <ion-badge color="dark" slot="end">10</ion-badge>
+  </ion-item>
+</ion-list>
+
+</ion-content>

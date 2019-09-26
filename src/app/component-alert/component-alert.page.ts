@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { AlertController } from '@ionic/angular';
-import { type } from 'os';
 
 @Component({
   selector: 'app-component-alert',

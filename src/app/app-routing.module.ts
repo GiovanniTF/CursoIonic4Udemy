@@ -26,7 +26,9 @@ const routes: Routes = [
   { path: 'component-button', loadChildren: './component-button/component-button.module#ComponentButtonPageModule' },
   { path: 'component-card', loadChildren: './component-card/component-card.module#ComponentCardPageModule' },
   { path: 'component-checkbox', loadChildren: './component-checkbox/component-checkbox.module#ComponentCheckboxPageModule' },
-  { path: 'component-radio', loadChildren: './component-radio/component-radio.module#ComponentRadioPageModule' }
+  { path: 'component-radio', loadChildren: './component-radio/component-radio.module#ComponentRadioPageModule' },
+  { path: 'component-datetime', loadChildren: './component-datetime/component-datetime.module#ComponentDatetimePageModule' },
+  { path: 'component-fab', loadChildren: './component-fab/component-fab.module#ComponentFabPageModule' }
 ];
 
 @NgModule({
